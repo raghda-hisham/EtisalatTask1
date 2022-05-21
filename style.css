@@ -47,7 +47,11 @@ nav{
      text-decoration: none;
      font-size: 16px;
      text-transform: uppercase;
-    }
+     color: gray;
+}
+.right-list .list-items .item a:hover{
+    color: var(--maincolor);
+}
 .right-list .list-items .item a img{
     width: 100px;
     height: 50px;   
@@ -230,7 +234,10 @@ header{
     background-color: var(--maincolor);
     color: white;
 }
-
+.sec-tit2{
+    font-size: 20px !important;
+    color: black !important;
+}
 .sec-tit{
     font-size: 16px !important;
     color: rgb(105, 105, 105) !important;
@@ -296,6 +303,7 @@ header{
     padding: 15px 0;
     border-radius: 7px;
     /* cursor: pointer; */
+    text-transform: capitalize;
     margin-top: 5px;
     background-color: var(--maincolor);
 }
@@ -347,7 +355,6 @@ header{
     font-size: 28px;
     padding: 10px 20px;
     color: white;
-
 }
 .sec2-content{
     width: 100%;
@@ -584,9 +591,15 @@ footer{
 .footer-container ul li{
     list-style: none;
 }
+.footer-container ul li.footer-list-item{
+    font-size: 16px;
+    color: grey;
+    cursor: pointer;
+}
 .footer-list-title{
     font-size: 24px;
     border-bottom: 1px solid white;
+    color: white;
     margin-bottom: 10px;
     padding: 0 0px 10px;
 }
